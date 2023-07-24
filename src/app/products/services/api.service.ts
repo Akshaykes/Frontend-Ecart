@@ -15,7 +15,7 @@ export class ApiService {
   constructor(private http: HttpClient) { 
     this.cartCount()
   }
-  BASE_URL = 'http://localhost:5000';
+  BASE_URL = 'https://backend-for-ecart-ey99.onrender.com';
 
   // get all products from mongodb
   getAllProducts() {
